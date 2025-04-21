@@ -4,14 +4,14 @@ DealsFinder is a web application that helps users browse and discover the best d
 
 It implements concepts such as:
 
-CRUD operations (Create, Read, Update, Delete)
+* CRUD operations (Create, Read, Update, Delete)
 
-User interface using HTML, CSS, and JavaScript
+* User interface using HTML, CSS, and JavaScript
 
-Backend development with ASP.NET Core MVC and C#
+* Backend development with ASP.NET Core MVC and C#
 
-Database integration for dynamic content management using Entity Framework and SQL Server
+* Database integration for dynamic content management using Entity Framework and SQL Server
 
-Deployment to Microsoft Azure for public access
+* Deployment to Microsoft Azure for public access
 
 The goal of this project is to demonstrate practical skills in building, deploying, and version-controlling a functional web app.
