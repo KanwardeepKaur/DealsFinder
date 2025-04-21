@@ -1,0 +1,17 @@
+﻿@model Lab5.Models.ViewModels.FileInputViewModel
+
+@{
+    ViewData["Title"] = "Delete Deal";
+}
+
+<h1>Delete Deal</h1>
+<p>Are you sure you want to delete: <strong>@ViewBag.FileName</strong>?</p>
+
+<form method="post"
+      asp-route="deleteDeal"
+      asp-route-id="@Model.FoodDeliveryServiceId"
+      asp-route-fileName="@ViewBag.FileName">
+    @Html.AntiForgeryToken()
+    <button type="submit" class="btn btn-danger">Confirm Delete</button>
+    <a asp-action="Index" asp-route-id="@Model.FoodDeliveryServiceId" class="btn btn-secondary">Cancel</a>
+</form>
